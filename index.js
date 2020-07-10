@@ -6,4 +6,7 @@ console.log(counterObj.getCounter()) //1
 
 
 const newCounterObj = require("./myscript.js")
-console.log(newCounterObj.getCounter()) // because of the "require cache", instead of getting 0, we'll get 1"
+console.log(newCounterObj.getCounter()) 
+
+// to debug using chrome://inspect,
+// type in your terminal: node --inspect-brk index.js
